@@ -9,4 +9,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//This Route via UserController
 Route::get('/user', [UserController::class, 'simpleMsg']);
